@@ -17,12 +17,9 @@ export class PanelsContainer extends React.Component
                     <CodePanel border="warning" bg="dark" text="white"></CodePanel> 
                     <CodePanel border="danger" bg="dark" text="white"></CodePanel>
                     <CodePanel border="primary" bg="dark" text="white"></CodePanel>
-                </div>
-                
+                </div>                
                 <CodePanel border="ligth"></CodePanel>
-                
-            </CardGroup>
-                    
+            </CardGroup>            
         );
     }
 }

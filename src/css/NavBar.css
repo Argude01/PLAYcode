@@ -1,0 +1,18 @@
+.form-inline {
+    width: 400px;
+}
+
+.form-control {
+    position: absolute;
+    width: 300px;
+}
+
+.circular {
+    border-radius: 150px;
+    align-content: center;
+
+    background-color: blueviolet;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
