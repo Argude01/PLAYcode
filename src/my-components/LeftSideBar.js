@@ -1,22 +1,19 @@
 import React from 'react';
-import { Button, Container } from 'react-bootstrap';
+import { Button, Container, Row } from 'react-bootstrap';
 
 export class LeftSideBar extends React.Component 
 {
     render() {
         return (
             <Container fluid>
-                <div>
+                <Row>
                     <Button className="btn-nuevo" variant="outline-success"> Nuevo</Button>
-                </div>
-                <div className="left-panel-sections">
-                    <ul>
-                        <li>Mi unidad</li>
-                        <li>Mis clases</li>
-                        <li>Participantes</li>
-                    </ul>
-                    
-                </div>
+                </Row>
+                <Row>
+                    <ul className="li"></ul>
+                    <ul className="li"></ul>
+                    <ul className="li"></ul> 
+                </Row>                
             </Container>
         );
     }

@@ -7,7 +7,7 @@ export class CodePanel extends React.Component
     render() {
         return (
             <Card border={this.props.border} bg={this.props.bg} text={this.props.text} style={{ width: '18rem' }}>
-                <Card.Header>HTML</Card.Header>
+                <Card.Header>{this.props.header}</Card.Header>
                 <Card.Body>
                     <Card.Title>File Name</Card.Title>
                     <Card.Text>

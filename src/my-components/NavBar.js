@@ -5,7 +5,8 @@ import searchIcon from '../icons-svg/baseline-search-24px.svg';
 import helpIcon from '../icons-svg/baseline-help_outline-24px.svg';
 import settingIcon from '../icons-svg/round-settings-24px.svg';
 import appsIcon from '../icons-svg/round-apps-24px.svg';
-import { Container, Row, Col } from 'react-bootstrap';
+import userIcon from '../icons-svg/user.svg';
+import { Container } from 'react-bootstrap';
 
 export class NavBar extends React.Component {
     render() {
@@ -53,7 +54,7 @@ export class NavBar extends React.Component {
                             <li className="nav-item">
                                 <a className="nav-link">
                                     <div className="circular">
-                                        DG
+                                        <img src={userIcon}></img>
                                     </div>
                                 </a>
                             </li>
