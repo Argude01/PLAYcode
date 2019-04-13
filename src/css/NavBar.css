@@ -1,18 +1,22 @@
 .form-inline {
-    width: 400px;
+    width: 600px;
 }
-
 .form-control {
     position: absolute;
-    width: 300px;
 }
 
 .circular {
     border-radius: 150px;
     align-content: center;
 
-    background-color: blueviolet;
+    background-color: #480d3cff;
     color: white;
-    width: 30px;
-    height: 30px;
+    position: relative;
+}
+
+.search-input {
+    color:white;
+    background: #e9ecef;
+    border: #e9ecef;
+    width: auto;
 }
