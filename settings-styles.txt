@@ -1,0 +1,9 @@
+LOGO
+====
+# option 1:
+-----------
+border logo color: RGBA(480d3cff);
+filling logo color: RGBA(480d3cff);
+border braces code logo color: RGBA(00ff00ff);
+filling braces code logo color: RGBA(00ff00ff);
+opacity: 85%;

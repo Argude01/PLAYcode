@@ -1,0 +1,22 @@
+.form-inline {
+    width: 600px;
+}
+.form-control {
+    position: absolute;
+}
+
+.circular {
+    border-radius: 150px;
+    align-content: center;
+
+    background-color: #480d3cff;
+    color: white;
+    position: relative;
+}
+
+.search-input {
+    color:white;
+    background: #e9ecef;
+    border: #e9ecef;
+    width: auto;
+}
