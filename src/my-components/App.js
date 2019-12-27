@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/App.css';
-import { Container, Row, Col, Button, Dropdown } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { NavBar } from './NavBar';
 import { PanelsContainer } from './PanelsContainer';
 import { ProjectsContainer } from './ProjectsContainer';
